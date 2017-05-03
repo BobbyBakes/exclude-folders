@@ -38,6 +38,6 @@ define(function (require, exports, module) {
             return false;
         }
         
-        return !name.match(/node_modules|components|generated/);
+        return !name.match(/node_modules|components|generated|coverage/);
     };
 });
